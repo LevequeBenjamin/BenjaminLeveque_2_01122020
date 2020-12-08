@@ -453,7 +453,12 @@
 }
 
 .rechercheFiltres a:hover{
-     background: #eef5ff;
+    background: #eef5ff;
+    -webkit-transform:scale(1.03); /* Safari and Chrome */
+    -moz-transform:scale(1.03); /* Firefox */
+    -ms-transform:scale(1.03); /* IE 9 */
+    -o-transform:scale(1.03); /* Opera */
+     transform:scale(1.03);
 }
 
 .carteHebergements:hover
@@ -463,6 +468,14 @@
     -ms-transform:scale(1.01); /* IE 9 */
     -o-transform:scale(1.01); /* Opera */
      transform:scale(1.01);
+}
+
+.afficherHebergements:hover{
+    -webkit-transform:scale(1.03); /* Safari and Chrome */
+    -moz-transform:scale(1.03); /* Firefox */
+    -ms-transform:scale(1.03); /* IE 9 */
+    -o-transform:scale(1.03); /* Opera */
+     transform:scale(1.03);
 }
 
 .cartePopulaires:hover

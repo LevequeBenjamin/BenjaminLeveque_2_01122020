@@ -155,8 +155,11 @@ main{
     padding: 0px 25px 0px 25px;
     height: 41px;
 }
-.bouton_B
-{
+.bouton_B 
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1em;
     font-family: "Raleway-Bold", sans-serif;
     border: 1px solid #0065fc;
@@ -386,6 +389,8 @@ main{
     flex-wrap: wrap;
     padding: 10px 10px 10px 10px;
     margin: 10px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .sectionActivites a{
@@ -396,7 +401,7 @@ main{
 
 .titreActivites{
     font-family: "Raleway-Bold", sans-serif;
-    width: 90%;
+    width: 95%;
 }
 
 /* Carte activités */
@@ -406,7 +411,7 @@ main{
     flex-direction: column;
     margin: 20px 10px 10px 10px;
     background: white;
-    width: 23%;
+    width: 20.5%;
     font-size: 0.8em;
     font-family: "Raleway-Bold", sans-serif;
     box-shadow: 2px 2px 10px #cccccc;
@@ -439,7 +444,7 @@ main{
 }
 
 .activitesDeux{
-    width: 23%;
+    width: 20.5%;
     margin: 0px 10px 10px 10px
 }
 

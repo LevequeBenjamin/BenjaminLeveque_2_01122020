@@ -1,6 +1,7 @@
 /* Responsive design + Animations dynamiques */
 
 /* Responsive design */
+
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1440px */
 @media all and (max-width: 1440px){ 
 
@@ -24,7 +25,9 @@
     }
 }
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 768px */
+/* Fin 1440px */
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 824px */
 
 /* Header */
 @media all and (max-width: 824px){ 
@@ -110,28 +113,30 @@
 @media all and (max-width: 824px){
   .sectionHebergements{
       flex-direction: column-reverse;
-      width: 100%;
-      margin-right: 0px;
-      margin-left: 0px;
+      width: 100%; 
+      justify-content: center;
+      align-items: center;
   }
 
   #hebergements{
-      width: 100%;
-      margin-right: 0px;  
+      width: 96%;  
       padding: 0px;   
   }
+
+  .headerHebergements h2{
+    padding-left: 20px;
+}
 
   .headerHebergements{
       height: 70px;
   }
 
   .afficherHebergements{
-      height: 10px;
+      height: 40px;
   }
 
   .carteHebergements {
       width: 42%;
-      height: 25%;
       margin: 10px 20px 10px 20px;
   }
 }
@@ -141,12 +146,20 @@
 @media all and (max-width: 824px){
   .populaires{
       margin-left: 0px;
-      width: 100%;
+      width: 96%;
       padding: 0px;
   }
 
   .articlePopulaires{
       display: flex;
+  }
+
+  .titrePopulaires h2{
+    padding-left: 20px;
+  }
+
+  .headerPopulaires p{
+      padding-right: 20px;
   }
 
   .imageCartePopulaires img{
@@ -179,8 +192,9 @@
 @media all and (max-width: 824px){
     .sectionActivites{
         width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
     }
 
     .carteActivitesUn{
@@ -213,7 +227,7 @@
 /* Fin partie main */
 
 /* Footer */
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     .footerWidth{
         flex-direction: column;
     }
@@ -224,10 +238,11 @@
 }
 
 /* Fin partie footer */ 
+/*Fin 824px */
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 425px */
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
 
     #logoReservia{
         width: 100px;
@@ -254,51 +269,55 @@
     }
 
     .fassamap{
-        height: 24px;
+        height: 36px;
         width: 25px;
         font-size: 0.9em;
     }
 
     .bouton_A{
-        height: 26px;
-        font-size: 0.9em;
-        padding: 0px 0px 0px 5px;
+        height: 38px;
+        
     }
 
     .bouton_B{
-        height: 26px;
+        height: 38px;
+        width: 25px;
         font-size: 0.9em;
+    }
+
+    .bouton_B p{
+        display: none;
     }
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     .hebergementsActivites a{
         font-size: 0.8em;
     }  
 
 }    
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     .filtres{
         font-size: 0.8em;
     }
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     .footerRechercher{
         font-size: 0.8em;
     }
 
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     .populaires{
         border-radius: 0px;
+        width: 100%;
     }
 
     .titrePopulaires h2{
         font-size: 1.2em;
-        padding-left: 20px;
     }
 
     .articlePopulaires{
@@ -317,21 +336,17 @@
     .imageCartePopulaires img{
         border-radius: 15px 0px 0px 15px;
     }
-    
-    
-
-
-
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     #hebergements{
         background: none;
+        width: 100%;
+        margin: 0px;
     }
 
     .headerHebergements h2{
         font-size: 1.2em;
-        padding-left: 20px;
     }
 
     .headerHebergements{
@@ -351,7 +366,7 @@
     }
 }
 
-@media all and (max-width: 425px){
+@media all and (max-width: 650px){
     .titreActivites h2{
         font-size: 1.2em;
         padding-left: 20px;
@@ -361,6 +376,7 @@
         flex-direction: column;
         padding: 0px;
         margin-top: 20px;
+        width: 100%;
     }
 
     .carteActivitesUn{
@@ -381,7 +397,8 @@
         margin-right: 20px;
     }
 }
-@media all and (max-width: 425px){
+
+@media all and (max-width: 650px){
     .footerBody{
         width: 100%;
         font-size: 0.6em;
@@ -393,14 +410,17 @@
         margin-left: 0px;
     }
 }
-
-
-
+/* Fin 425px */
 /* Fin reponsive design */
 
 /* Animations dynamiques */
+@media all and (min-width: 651px){
+.bouton_B i{
+    display: none;
+}
+}
 
-@media all and (min-width: 824px){
+@media all and (min-width: 825px){
 .headerBarreDeux:hover{
       border-top: 3px solid #0065fc;
 }
@@ -415,9 +435,6 @@
     font-weight: bold;
 
 }
-
-
-
 
 .bouton_B:hover{
     -webkit-transform:scale(1.01); /* Safari and Chrome */

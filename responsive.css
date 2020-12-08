@@ -186,6 +186,7 @@
 
   .descriptionPopulaires{
       width: 90%;
+      height: 100px;
   }
 
 }
@@ -278,18 +279,22 @@
 
     .fassamap{
         height: 36px;
-        width: 25px;
+        width: 40px;
         font-size: 0.9em;
     }
 
     .bouton_A{
         height: 38px;
+        padding: 0px 10px 0px 10px;
         
     }
 
     .bouton_B{
+        position: relative;
+        right: 8px;
+        border-radius: 10px;
         height: 38px;
-        width: 25px;
+        width: 40px;
         font-size: 0.9em;
     }
 

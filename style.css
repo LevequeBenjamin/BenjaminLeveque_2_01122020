@@ -135,7 +135,7 @@ main{
 
 .fassamap{
     border: 1px solid #f2f2f2;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 10px 0px 0px 10px;
     background: #f2f2f2;
     height: 39px;
     width: 40px;
@@ -163,7 +163,7 @@ main{
     font-size: 1em;
     font-family: "Raleway-Bold", sans-serif;
     border: 1px solid #0065fc;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 10px 10px 0px;
     height: 41px;
     background-color: #0065fc;
     color: white;
@@ -387,7 +387,7 @@ main{
 .sectionActivites{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 0px 10px 0px;
     margin: 10px 0px 10px 0px;
     justify-content: center;
     align-items: center;
@@ -401,8 +401,8 @@ main{
 
 .titreActivites{
     font-family: "Raleway-Bold", sans-serif;
-    width: 95%;
-    padding-left: 70px;
+    width: 97%;
+    
 }
 
 /* Carte activités */
@@ -412,10 +412,12 @@ main{
     flex-direction: column;
     margin: 20px 10px 10px 10px;
     background: white;
-    width: 20.5%;
+    width: 23%;
     font-size: 0.8em;
     font-family: "Raleway-Bold", sans-serif;
     box-shadow: 2px 2px 10px #cccccc;
+    margin-left:1%;
+    margin-right: 1%;
 }
 
 .carteActivitesDeux{
@@ -445,8 +447,10 @@ main{
 }
 
 .activitesDeux{
-    width: 20.5%;
-    margin: 0px 10px 10px 10px
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 10px;
 }
 
 .descriptionActivitesUn{

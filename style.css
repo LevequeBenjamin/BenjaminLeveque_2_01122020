@@ -1,0 +1,505 @@
+/* Définition des polices personnalisées */
+
+@font-face{
+    font-family: "Raleway";
+    src: url("polices/raleway/Raleway-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Raleway-Bold";
+    src: url("polices/raleway/Raleway-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+
+
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    margin: auto; 
+}
+
+.header{
+    max-width: 1440px;
+    margin: auto;
+}
+
+main{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.footerBody{
+    max-width: 100%;
+}
+
+.rechercher{
+    padding: 0px 30px 0px 30px;
+}
+
+
+/* Fin éléments principaux de la page */
+/* Header */
+
+#logoReservia{
+    margin-right: auto;
+    width: 120px;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2em;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hebergementsActivites{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 50px;
+}
+
+.hebergementsActivites a{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.headerBarreUn{
+    border-top: 3px solid #0065fc;
+    text-align: center;
+    height: 100%;
+    width: 150px;
+    
+}
+
+.headerBarreUn a{
+    text-decoration: none;
+    color: #0065fc;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+ 
+}
+
+.headerBarreDeux{
+    text-align: center;
+    border-top: 3px solid #f2f2f2;
+    height: 100%;
+    width: 150px;
+    
+
+}
+
+.headerBarreDeux a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.inscription a{
+    text-decoration: none;
+    font-family: "Raleway-Bold", sans-serif;
+    color: #0065fc;
+}
+
+.inscription{
+    padding-top: 32px;
+    margin-left: 20px;
+}
+
+/* Fin header */
+/* Section Rechercher */
+
+.sectionRechercher h1{
+    font-size: 2em;
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.sectionRechercher{
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fassamap{
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+    background: #f2f2f2;
+    height: 39px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton_A
+{   
+    font-size: 1em;
+    font-family: "Raleway-Bold",sans-serif;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-left: 2px solid #f2f2f2;
+    border-right: 2px solid white;
+    padding: 0px 25px 0px 25px;
+    height: 41px;
+}
+.bouton_B
+{
+    font-size: 1em;
+    font-family: "Raleway-Bold", sans-serif;
+    border: 1px solid #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    height: 41px;
+    background-color: #0065fc;
+    color: white;
+}
+
+.filtres{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.filtres h2{
+    font-size: 1.2em;
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.rechercheFiltres a{
+    display: flex;
+    border: 2px solid #f2f2f2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px 20px 0px 20px;
+    padding: 0px 20px 0px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.rechercheFiltresIcon{
+    border: 2px solid #cce0ff;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    color: #0065fc;
+    background: #cce0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rechercheFiltresTitre{
+    font-family: "Raleway-Bold", sans-serif;
+    padding: 10px 0px 0px 10px;
+}
+
+.footerRechercher{
+    display: flex;
+    align-items: center;
+}
+
+.infoIcon{
+    border:2px solid #f2f2f2;
+    border-radius: 30px;
+    height: 20px;
+    width: 20px;
+    font-size: 0.8em;
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    
+}
+
+.footerrechercher p{
+    font-size: 1.1em;
+}
+/* Fin section rechercher */
+
+/* Section hebergements */
+.sectionHebergements{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* Partie hebergements */
+#hebergements{
+    border-radius: 20px;
+    background: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 40px 10px;
+    width: 70%;
+    margin: 10px 10px 10px 0px;
+}
+
+/* Header hebergements */
+.headerHebergements{
+    font-family: "Raleway-Bold", sans-serif;
+    width: 98%;
+}
+/* Fin header hebergements */
+
+/* Carte hebergements */
+.star{
+    color: #0065fc;
+    align-items: baseline;
+}
+
+.carteHebergements{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    background: white;
+    width: 29.5%;
+    height: 36%;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 10px #cccccc;
+}
+
+.descriptionHebergements h3{
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.carteHebergements a{
+    text-decoration: none;
+    color: black;
+}
+
+.imageCarteHebergements img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imageCarteHebergements{
+    height: 50%;
+}
+
+
+.afficherHebergements{
+    margin-left: 20px;
+}
+
+.afficherHebergements a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-family: "Raleway-Bold", sans-serif;
+}
+ /* Fin carte hebergements*/
+ /* Fin partie hebergements */
+
+ /* Aside populaires */
+.populaires{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #f2f2f2;
+    padding: 10px 10px 10px 10px;
+    width: 25%;
+    margin: 10px 0px 10px 10px;
+}
+
+/* Header populaires */
+.headerPopulaires{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.headerPopulaires p{
+    font-size: 1.4em;
+}
+/* Fin header populaires */
+
+/* Carte populaires */
+.descriptionPopulaires h3{
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.descriptionPopulaire{
+    background: #466086;
+}
+
+.starPopulaires{
+    color: #0065fc;
+}
+
+.cartePopulaires {
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+    background: white;
+    width: 90% ;
+    height: 29%;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 10px #cccccc;
+}
+
+.cartePopulaires a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    object-fit: cover;
+}
+
+.imageCartePopulaires img{
+    object-fit: cover;
+    width: 120px;
+    height: 153px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.descriptionPopulaires{
+    width: 160%;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+/* Fin carte populaires */
+/* Fin aside populaires */
+/* Fin section hebergements */
+
+/* Section activités */
+.sectionActivites{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+.sectionActivites a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.titreActivites{
+    font-family: "Raleway-Bold", sans-serif;
+    width: 90%;
+}
+
+/* Carte activités */
+.carteActivitesUn{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+    background: white;
+    width: 23%;
+    font-size: 0.8em;
+    font-family: "Raleway-Bold", sans-serif;
+    box-shadow: 2px 2px 10px #cccccc;
+}
+
+.carteActivitesDeux{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background: white;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: "Raleway-Bold", sans-serif;
+    box-shadow: 2px 2px 10px #cccccc;
+}
+
+.imageActivitesUn img{
+    object-fit: cover;
+    width: 100%;
+    height: 372px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imageActivitesDeux img{
+    object-fit: cover;
+    width: 100%;
+    height: 151px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.activitesDeux{
+    width: 23%;
+    margin: 0px 10px 10px 10px
+}
+
+.descriptionActivitesUn{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.descriptionActivitesDeux{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+/* Fin carte activités */
+/* Fin section activités */
+
+/* Footer body */
+.footerBody
+{   display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+    width: auto;
+    min-height: 120px;
+    margin-top: 40px;
+}
+
+.footerWidth{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footerWidth h2
+{
+    font-size: 1.8em;
+    font-family: "Raleway-Bold", sans-serif;
+}
+
+.footerWidth ul
+{
+    width: 30%;
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
+.footerWidth li
+{
+    padding-bottom: 10px;
+}
+
+.footerWidth a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* Fin footer body */
+
+
+
+

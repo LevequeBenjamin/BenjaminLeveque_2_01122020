@@ -1,0 +1,475 @@
+/* Responsive design + Animations dynamiques */
+
+/* Responsive design */
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1440px */
+
+@media all and (max-width: 1440px){ 
+
+    .populaires{
+        width: 96%;
+    }
+
+    .articlePopulaires{
+        display: flex;
+    }
+
+    .cartePopulaires{
+        height: 82%;
+    }
+}
+
+@media all and (max-width: 1440px){
+    #hebergements{
+        width: 96%;
+        margin-left: 10px;
+    }
+
+}
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 768px */
+
+/* Header */
+@media all and (max-width: 824px){ 
+    .header{
+      height: 140px;
+      flex-wrap: wrap-reverse;
+      padding-left: 0px;
+      padding-right: 0px; 
+  }
+
+  .hebergementsActivites{
+      width: 100%;
+  }
+
+  #logoReservia{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+  }
+
+  .inscription{
+    margin-right: 20px;
+  }
+
+  .headerBarreUn{
+      border-bottom: 3px solid #0065fc;
+      border-top-style: none;
+      width: 100%;
+  }
+
+  .headerBarreUnUn{
+    width: 100%;
+}
+
+  .headerBarreUn a{
+      align-items: flex-start;
+  }
+
+  .headerBarreDeux{
+      border-bottom: 3px solid #f2f2f2;
+      border-top-style: none;
+      width: 100%;
+  }
+
+  .headerBarreDeuxDeux{
+      width: 100%;
+  }
+
+  .headerBarreDeux a{
+      align-items: flex-start;
+  }
+
+  .headerBarreDeux:hover{
+      border-bottom: 3px solid #0065fc;
+      border-top-style:none;
+
+  }
+
+}
+/* Fin Header */
+
+/* Main */
+/* Section rechercher */ 
+@media all and (max-width: 824px){
+    .filtres{
+        flex-wrap: wrap;
+    }
+
+    .titreFiltres{
+        width: 80%;
+    }
+
+    .rechercheFiltres a{
+        margin-top: 10px;
+    }
+
+}
+/* Fin section rechercher */
+
+/* Section hebergements */
+/* Carte hebergements */
+@media all and (max-width: 824px){
+  .sectionHebergements{
+      flex-direction: column-reverse;
+      width: 100%;
+      margin-right: 0px;
+  }
+
+  #hebergements{
+      width: 100%;
+      margin-right: 0px;  
+      padding: 0px;   
+  }
+
+  .headerHebergements{
+      height: 70px;
+  }
+
+  .afficherHebergements{
+      height: 10px;
+  }
+
+  .carteHebergements {
+      width: 42%;
+      height: 12%;
+      margin: 10px 20px 10px 20px;
+  }
+}
+/* Fin carte hebergements */
+
+/* Aside populaires */
+@media all and (max-width: 824px){
+  .populaires{
+      margin-left: 0px;
+      width: 100%;
+      padding: 0px;
+  }
+
+  .articlePopulaires{
+      display: flex;
+  }
+
+  .imageCartePopulaires img{
+      height: 100%;
+      border-radius: 15px 15px 0px 0px;
+      width: 100%;
+  }
+
+  .cartePopulaires{
+      width: 28%;
+  }
+
+  .cartePopulaires a{
+      flex-direction: column;
+  }
+
+  .descriptionPopulaires h3{
+      font-size: 0.9em;
+    }
+
+  .descriptionPopulaires p{
+      font-size: 1em;
+    }
+
+}
+/* Fin aside populaires */
+/* Fin section hebergements */
+
+/* Section activités */
+@media all and (max-width: 824px){
+    .sectionActivites{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .carteActivitesUn{
+        width: 45%;
+        height: 587px;
+    }
+
+    .imageActivitesUn img{
+        height: 500px;
+    }
+
+    .imageActivitesDeux img{
+        height: 200px;
+    }
+
+    .descriptionActivitesUn{
+        height: 80px;
+    }
+
+    .descriptionActivitesDeux{
+        height: 80px;
+    }
+
+    .activitesDeux{
+        width: 45%;
+
+    }
+}
+/* Fin section activités */
+/* Fin partie main */
+
+/* Footer */
+@media all and (max-width: 425px){
+    .footerWidth{
+        flex-direction: column;
+    }
+
+    .footerWidth ul{
+        font-size: 1em;
+    }
+}
+
+/* Fin partie footer */ 
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 425px */
+
+@media all and (max-width: 425px){
+
+    #logoReservia{
+        width: 100px;
+    }
+
+    .inscription a{
+        font-size: 0.8em;
+    }
+
+    .sectionRechercher h1{
+        font-size: 1.2em;
+    }
+
+    .sectionRechercher p{
+        font-size: 0.8em;
+    }
+
+    .sectionRechercher{
+        margin-bottom: 0px;
+    }
+
+    .sectionRechercher{
+        height: 80px;
+    }
+
+    .fassamap{
+        height: 24px;
+        width: 25px;
+        font-size: 0.9em;
+    }
+
+    .bouton_A{
+        height: 26px;
+        font-size: 0.9em;
+        padding: 0px 0px 0px 5px;
+    }
+
+    .bouton_B{
+        height: 26px;
+        font-size: 0.9em;
+    }
+}
+
+@media all and (max-width: 425px){
+    .hebergementsActivites a{
+        font-size: 0.8em;
+    }  
+
+}    
+
+@media all and (max-width: 425px){
+    .filtres{
+        font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 425px){
+    .footerRechercher{
+        font-size: 0.8em;
+    }
+
+}
+
+@media all and (max-width: 425px){
+    .populaires{
+        border-radius: 0px;
+    }
+
+    .titrePopulaires h2{
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+
+    .articlePopulaires{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartePopulaires{
+        width: 86%;
+    }
+
+    .cartePopulaires a{
+        flex-direction: row;
+    }
+
+    .imageCartePopulaires img{
+        border-radius: 15px 0px 0px 15px;
+    }
+    
+    
+
+
+
+}
+
+@media all and (max-width: 425px){
+    #hebergements{
+        background: none;
+
+    }
+
+    .headerHebergements h2{
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+
+    .headerHebergements{
+        padding-left: 0px;
+    }
+
+    .carteHebergements{
+        width: 100%;
+    }
+
+    .descriptionHebergements h3{   
+        font-size: 1em; 
+    }
+
+    .descriptionHebergements p{
+        font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 425px){
+    .titreActivites h2{
+        font-size: 1.2em;
+        padding-left: 20px;
+    }
+
+    .sectionActivites{
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .carteActivitesUn{
+        width: 88%;
+        height: 15%;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .imageActivitesUn img{
+        height: 200px;
+    }
+
+    .activitesDeux{
+        width: 88%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media all and (max-width: 425px){
+    .footerBody{
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    .footerBody ul{
+        margin-right: 0px;
+    }
+}
+
+
+
+/* Fin reponsive design */
+
+/* Animations dynamiques */
+
+@media all and (min-width: 824px){
+.headerBarreDeux:hover{
+      border-top: 3px solid #0065fc;
+}
+}
+
+.headerBarreUn a:hover{
+    font-weight: bold;
+}
+
+  .headerBarreDeux a:hover{
+    color: #0065fc;
+    font-weight: bold;
+
+}
+
+
+
+
+.bouton_B:hover{
+    -webkit-transform:scale(1.01); /* Safari and Chrome */
+    -moz-transform:scale(1.01); /* Firefox */
+    -ms-transform:scale(1.01); /* IE 9 */
+    -o-transform:scale(1.01); /* Opera */
+     transform:scale(1.01);
+}
+
+.rechercheFiltres a:hover{
+     background: #eef5ff;
+}
+
+.carteHebergements:hover
+{
+    -webkit-transform:scale(1.01); /* Safari and Chrome */
+    -moz-transform:scale(1.01); /* Firefox */
+    -ms-transform:scale(1.01); /* IE 9 */
+    -o-transform:scale(1.01); /* Opera */
+     transform:scale(1.01);
+}
+
+.cartePopulaires:hover
+{
+    -webkit-transform:scale(1.01); /* Safari and Chrome */
+    -moz-transform:scale(1.01); /* Firefox */
+    -ms-transform:scale(1.01); /* IE 9 */
+    -o-transform:scale(1.01); /* Opera */
+     transform:scale(1.01);
+}
+
+.carteActivitesUn:hover
+{
+    -webkit-transform:scale(1.01); /* Safari and Chrome */
+    -moz-transform:scale(1.01); /* Firefox */
+    -ms-transform:scale(1.01); /* IE 9 */
+    -o-transform:scale(1.01); /* Opera */
+     transform:scale(1.01);
+}
+
+.carteActivitesDeux:hover
+{
+    -webkit-transform:scale(1.01); /* Safari and Chrome */
+    -moz-transform:scale(1.01); /* Firefox */
+    -ms-transform:scale(1.01); /* IE 9 */
+    -o-transform:scale(1.01); /* Opera */
+     transform:scale(1.01);
+}
+
+.footerBody a:hover
+{
+    text-decoration: underline;
+}
+
+/* Fin animations dynamiques */
+

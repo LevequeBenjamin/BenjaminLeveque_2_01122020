@@ -402,6 +402,7 @@ main{
 .titreActivites{
     font-family: "Raleway-Bold", sans-serif;
     width: 95%;
+    padding-left: 70px;
 }
 
 /* Carte activités */

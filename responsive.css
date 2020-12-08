@@ -184,6 +184,10 @@
       font-size: 1em;
     }
 
+  .descriptionPopulaires{
+      width: 90%;
+  }
+
 }
 /* Fin aside populaires */
 /* Fin section hebergements */
@@ -195,6 +199,10 @@
         justify-content: center;
         align-items: center;
         padding: 0px;
+    }
+
+    .titreActivites{
+        padding-left: 0px;
     }
 
     .carteActivitesUn{

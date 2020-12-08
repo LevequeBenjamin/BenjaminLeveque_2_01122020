@@ -279,8 +279,8 @@
 
     .fassamap{
         height: 36px;
-        width: 40px;
-        font-size: 0.9em;
+        width: 36px;
+        font-size: 1em;
     }
 
     .bouton_A{
@@ -295,7 +295,7 @@
         border-radius: 10px;
         height: 38px;
         width: 40px;
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
     .bouton_Bsearch{

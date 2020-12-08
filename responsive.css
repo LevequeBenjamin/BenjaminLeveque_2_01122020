@@ -2,7 +2,6 @@
 
 /* Responsive design */
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1440px */
-
 @media all and (max-width: 1440px){ 
 
     .populaires{
@@ -23,8 +22,8 @@
         width: 96%;
         margin-left: 10px;
     }
-
 }
+
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 768px */
 
 /* Header */
@@ -113,6 +112,7 @@
       flex-direction: column-reverse;
       width: 100%;
       margin-right: 0px;
+      margin-left: 0px;
   }
 
   #hebergements{
@@ -131,7 +131,7 @@
 
   .carteHebergements {
       width: 42%;
-      height: 12%;
+      height: 25%;
       margin: 10px 20px 10px 20px;
   }
 }
@@ -179,8 +179,8 @@
 @media all and (max-width: 824px){
     .sectionActivites{
         width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .carteActivitesUn{
@@ -327,7 +327,6 @@
 @media all and (max-width: 425px){
     #hebergements{
         background: none;
-
     }
 
     .headerHebergements h2{
@@ -388,8 +387,10 @@
         font-size: 0.6em;
     }
 
-    .footerBody ul{
+    .footerWidth ul{
+        width: 80%;
         margin-right: 0px;
+        margin-left: 0px;
     }
 }
 

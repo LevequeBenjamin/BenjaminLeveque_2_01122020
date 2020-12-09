@@ -3,6 +3,8 @@
 /* Responsive design */
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1440px */
+/* Section hébergements */
+/* Aside populaires */
 @media all and (max-width: 1440px){ 
 
     .populaires{
@@ -17,18 +19,19 @@
         height: 82%;
     }
 }
-
+/* Fin aside populaires */
+/* Partie hébergements */
 @media all and (max-width: 1440px){
     #hebergements{
         width: 96%;
         margin-left: 10px;
     }
 }
-
+/* Fin partie hébergements */
+/* Fin section hébergements */
 /* Fin 1440px */
 
 /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 824px */
-
 /* Header */
 @media all and (max-width: 824px){ 
     .header{
@@ -61,7 +64,7 @@
 
   .headerBarreUnUn{
     width: 100%;
-}
+  }
 
   .headerBarreUn a{
       align-items: flex-start;
@@ -86,11 +89,8 @@
       border-top-style:none;
 
   }
-
 }
 /* Fin Header */
-
-/* Main */
 /* Section rechercher */ 
 @media all and (max-width: 824px){
     .filtres{
@@ -107,7 +107,6 @@
 
 }
 /* Fin section rechercher */
-
 /* Section hebergements */
 /* Carte hebergements */
 @media all and (max-width: 824px){
@@ -125,7 +124,7 @@
 
   .headerHebergements h2{
     padding-left: 20px;
-}
+  }
 
   .headerHebergements{
       height: 70px;
@@ -141,7 +140,6 @@
   }
 }
 /* Fin carte hebergements */
-
 /* Aside populaires */
 @media all and (max-width: 824px){
   .populaires{
@@ -188,11 +186,9 @@
       width: 90%;
       height: 100px;
   }
-
 }
 /* Fin aside populaires */
 /* Fin section hebergements */
-
 /* Section activités */
 @media all and (max-width: 824px){
     .sectionActivites{
@@ -229,12 +225,9 @@
 
     .activitesDeux{
         width: 45%;
-
     }
 }
 /* Fin section activités */
-/* Fin partie main */
-
 /* Footer */
 @media all and (max-width: 650px){
     .footerWidth{
@@ -245,12 +238,11 @@
         font-size: 1em;
     }
 }
-
 /* Fin partie footer */ 
 /*Fin 824px */
 
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 425px */
-
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 650px */
+/* Header */
 @media all and (max-width: 650px){
 
     #logoReservia{
@@ -260,7 +252,13 @@
     .inscription a{
         font-size: 0.8em;
     }
-
+    .hebergementsActivites a{
+        font-size: 0.8em;
+    }  
+}
+/* Fin header */
+/* section rechercher */
+@media all and (max-width: 650px){
     .sectionRechercher h1{
         font-size: 1.2em;
     }
@@ -285,8 +283,7 @@
 
     .bouton_A{
         height: 38px;
-        padding: 0px 10px 0px 10px;
-        
+        padding: 0px 10px 0px 10px;       
     }
 
     .bouton_B{
@@ -301,28 +298,18 @@
     .bouton_Bsearch{
         display: none;
     }
-}
 
-@media all and (max-width: 650px){
-    .hebergementsActivites a{
-        font-size: 0.8em;
-    }  
-
-}    
-
-@media all and (max-width: 650px){
     .filtres{
         font-size: 0.8em;
     }
-}
 
-@media all and (max-width: 650px){
     .footerRechercher{
         font-size: 0.8em;
     }
-
 }
-
+/* Fin section rechercher */
+/* Section hébergements */
+/* Aside populaires */
 @media all and (max-width: 650px){
     .populaires{
         border-radius: 0px;
@@ -350,7 +337,8 @@
         border-radius: 15px 0px 0px 15px;
     }
 }
-
+/* Fin aside populaires */
+/* Partie hébergements */
 @media all and (max-width: 650px){
     #hebergements{
         background: none;
@@ -378,7 +366,9 @@
         font-size: 0.8em;
     }
 }
-
+/* Fin partie hébergements */
+/* Fin section hébergements */
+/* Section activités */
 @media all and (max-width: 650px){
     .titreActivites h2{
         font-size: 1.2em;
@@ -396,8 +386,7 @@
         width: 88%;
         height: 15%;
         margin-left: 20px;
-        margin-right: 20px;
-        
+        margin-right: 20px;       
     }
 
     .imageActivitesUn img{
@@ -410,7 +399,8 @@
         margin-right: 20px;
     }
 }
-
+/* Fin section activités */
+/* Footer body */
 @media all and (max-width: 650px){
     .footerBody{
         width: 100%;
@@ -423,30 +413,33 @@
         margin-left: 0px;
     }
 }
-/* Fin 425px */
+/* Fin 650px */
 /* Fin reponsive design */
 
 /* Animations dynamiques */
+/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 651px */
 @media all and (min-width: 651px){
 .bouton_B i{
     display: none;
 }
 }
-
+/* Fin 651px */
+/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 825px */
 @media all and (min-width: 825px){
 .headerBarreDeux:hover{
       border-top: 3px solid #0065fc;
 }
 }
+/* Fin 825px */
 
+/* Animations permanente */
 .headerBarreUn a:hover{
     font-weight: bold;
 }
 
-  .headerBarreDeux a:hover{
+.headerBarreDeux a:hover{
     color: #0065fc;
     font-weight: bold;
-
 }
 
 .bouton_B:hover{
@@ -514,6 +507,6 @@
 {
     text-decoration: underline;
 }
-
+/* Fin animations permanente */
 /* Fin animations dynamiques */
 

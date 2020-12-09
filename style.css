@@ -13,11 +13,9 @@
     font-weight: normal;
     font-style: normal;
 }
+/* Fin définitions des polices personnalisées */
 
 /* Eléments principaux de la page */
-
-
-
 body{
     font-family: "Raleway", Arial, sans-serif;
     margin: auto; 
@@ -40,11 +38,9 @@ main{
 .rechercher{
     padding: 0px 30px 0px 30px;
 }
-
-
 /* Fin éléments principaux de la page */
-/* Header */
 
+/* Header */
 #logoReservia{
     margin-right: auto;
     width: 120px;
@@ -77,8 +73,7 @@ main{
     border-top: 3px solid #0065fc;
     text-align: center;
     height: 100%;
-    width: 150px;
-    
+    width: 150px;  
 }
 
 .headerBarreUn a{
@@ -87,7 +82,6 @@ main{
     width: 100%;
     align-items: flex-end;
     justify-content: center;
- 
 }
 
 .headerBarreDeux{
@@ -95,8 +89,6 @@ main{
     border-top: 3px solid #f2f2f2;
     height: 100%;
     width: 150px;
-    
-
 }
 
 .headerBarreDeux a{
@@ -105,7 +97,6 @@ main{
     width: 100%;
     align-items: flex-end;
     justify-content: center;
-
 }
 
 .inscription a{
@@ -118,10 +109,9 @@ main{
     padding-top: 32px;
     margin-left: 20px;
 }
-
 /* Fin header */
-/* Section Rechercher */
 
+/* Section Rechercher */
 .sectionRechercher h1{
     font-size: 2em;
     font-family: "Raleway-Bold", sans-serif;
@@ -155,6 +145,7 @@ main{
     padding: 0px 25px 0px 25px;
     height: 41px;
 }
+
 .bouton_B 
 {   
     display: flex;
@@ -378,7 +369,6 @@ main{
     height: 100%;
     padding: 0px 10px 0px 10px;
 }
-
 /* Fin carte populaires */
 /* Fin aside populaires */
 /* Fin section hebergements */
@@ -507,7 +497,6 @@ main{
     text-decoration: none;
     color: black;
 }
-
 /* Fin footer body */
 
 

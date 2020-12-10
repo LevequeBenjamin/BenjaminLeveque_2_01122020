@@ -215,6 +215,14 @@
         height: 200px;
     }
 
+    .imageActivitesFort img{
+        height: 270px;
+    }
+
+    .imageActivitesFrioul img{
+        height: 131px;
+    }
+
     .descriptionActivitesUn{
         height: 80px;
     }
@@ -393,6 +401,14 @@
         height: 200px;
     }
 
+    .imageActivitesFort img{
+        height: 200px;
+    }
+
+    .imageActivitesFrioul img{
+        height: 200px;
+    }
+
     .activitesDeux{
         width: 88%;
         margin-left: 20px;
@@ -442,7 +458,7 @@
     font-weight: bold;
 }
 
-.bouton_B:hover{
+.zoomUn:hover{
     -webkit-transform:scale(1.01); /* Safari and Chrome */
     -moz-transform:scale(1.01); /* Firefox */
     -ms-transform:scale(1.01); /* IE 9 */
@@ -459,48 +475,12 @@
      transform:scale(1.03);
 }
 
-.carteHebergements:hover
-{
-    -webkit-transform:scale(1.01); /* Safari and Chrome */
-    -moz-transform:scale(1.01); /* Firefox */
-    -ms-transform:scale(1.01); /* IE 9 */
-    -o-transform:scale(1.01); /* Opera */
-     transform:scale(1.01);
-}
-
 .afficherHebergements:hover{
     -webkit-transform:scale(1.03); /* Safari and Chrome */
     -moz-transform:scale(1.03); /* Firefox */
     -ms-transform:scale(1.03); /* IE 9 */
     -o-transform:scale(1.03); /* Opera */
      transform:scale(1.03);
-}
-
-.cartePopulaires:hover
-{
-    -webkit-transform:scale(1.01); /* Safari and Chrome */
-    -moz-transform:scale(1.01); /* Firefox */
-    -ms-transform:scale(1.01); /* IE 9 */
-    -o-transform:scale(1.01); /* Opera */
-     transform:scale(1.01);
-}
-
-.carteActivitesUn:hover
-{
-    -webkit-transform:scale(1.01); /* Safari and Chrome */
-    -moz-transform:scale(1.01); /* Firefox */
-    -ms-transform:scale(1.01); /* IE 9 */
-    -o-transform:scale(1.01); /* Opera */
-     transform:scale(1.01);
-}
-
-.carteActivitesDeux:hover
-{
-    -webkit-transform:scale(1.01); /* Safari and Chrome */
-    -moz-transform:scale(1.01); /* Firefox */
-    -ms-transform:scale(1.01); /* IE 9 */
-    -o-transform:scale(1.01); /* Opera */
-     transform:scale(1.01);
 }
 
 .footerBody a:hover

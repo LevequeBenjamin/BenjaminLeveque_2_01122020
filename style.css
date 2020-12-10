@@ -284,9 +284,8 @@ main{
 }
 
 .imageCarteHebergements{
-    height: 50%;
+    height: 110px;
 }
-
 
 .afficherHebergements{
     margin-left: 20px;
@@ -330,10 +329,6 @@ main{
     font-family: "Raleway-Bold", sans-serif;
 }
 
-.descriptionPopulaire{
-    background: #466086;
-}
-
 .starPopulaires{
     color: #0065fc;
 }
@@ -365,8 +360,6 @@ main{
 }
 
 .descriptionPopulaires{
-    width: 160%;
-    height: 100%;
     padding: 0px 10px 0px 10px;
 }
 /* Fin carte populaires */

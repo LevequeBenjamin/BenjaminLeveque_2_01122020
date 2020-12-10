@@ -180,7 +180,8 @@
   .descriptionPopulaires p{
       font-size: 1em;
     }
-
+}
+@media all and (max-width: 824px) and (min-width: 651px){
   .descriptionPopulaires{
       width: 90%;
       height: 100px;
@@ -342,6 +343,10 @@
 
     .imageCartePopulaires img{
         border-radius: 15px 0px 0px 15px;
+    }
+    
+    .descriptionPopulaires{
+        width: 90%;
     }
 }
 /* Fin aside populaires */

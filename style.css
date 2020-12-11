@@ -239,6 +239,8 @@ main{
     padding: 10px 10px 40px 10px;
     width: 70%;
     margin: 10px 10px 10px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Header hebergements */
@@ -289,6 +291,7 @@ main{
 
 .afficherHebergements{
     margin-left: 20px;
+    width: 98%;
 }
 
 .afficherHebergements a{
